@@ -40,3 +40,4 @@ add_action('plugins_loaded', 'arashtad_3d_product_load_textdomain');
 // Include files
 require_once(ARASHTAD_3D_PRODUCT_DIR . 'admin/arashtad-settings-page.php');
 require_once(ARASHTAD_3D_PRODUCT_DIR . 'admin/arashtad-simple-product-custom-fields.php');
+require_once(ARASHTAD_3D_PRODUCT_DIR . 'admin/arashtad-variable-product-custom-fields.php');
