@@ -44,3 +44,4 @@ require_once(ARASHTAD_3D_PRODUCT_DIR . 'admin/arashtad-variable-product-custom-f
 
 require_once(ARASHTAD_3D_PRODUCT_DIR . 'public/arashtad_public_enqueue.php');
 require_once(ARASHTAD_3D_PRODUCT_DIR . 'public/arashtad_simple_product_model.php');
+require_once(ARASHTAD_3D_PRODUCT_DIR . 'public/arashtad_variable_product_model.php');

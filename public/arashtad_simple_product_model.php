@@ -6,11 +6,9 @@
  * @since 1.0
  */
 
-function arashtad_woocommerce_before_single_product_summary_action_simple () {
+function arashtad_simple_product_model_scripts () {
 
     if (!is_product()) return;
-
-    remove_all_actions('woocommerce_before_single_product_summary');
 
     $id =  get_the_ID();
     $product = wc_get_product($id);
@@ -79,4 +77,4 @@ function arashtad_woocommerce_before_single_product_summary_action_simple () {
     }, 20);
 }
 
-add_action('wp_enqueue_scripts', 'arashtad_woocommerce_before_single_product_summary_action_simple');
+add_action('wp_enqueue_scripts', 'arashtad_simple_product_model_scripts');
